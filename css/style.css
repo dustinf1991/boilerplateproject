@@ -94,6 +94,25 @@ header .main-nav li {
   list-style-type: none;
   display: inline-block;
 }
+header .logo {
+  float: left;
+}
+header .main-nav {
+  height: 70px;
+  float: left;
+  margin: 0;
+  padding: 0px 15px;
+  line-height: 70px;
+}
+header .main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'built_titling', Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding: 0 15px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
